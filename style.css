@@ -1,0 +1,500 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@1,300&display=swap');
+
+html, body{
+	width: 100%;
+	height: 100%;
+	background: #3b4665;
+	margin: 0px;
+}
+
+.cabecalho {
+    	width: 100%;
+    	height: 50px;
+	background: #3b4665;
+	font-family: 'Black Ops One', system-ui;
+	font-size: 45px;
+	text-align: center;
+	padding-bottom: 10px;
+	padding-top: 5px;
+	color: #d3d3d3;
+	border-bottom: 2px solid #adb5c5;
+}
+
+.propriedades {
+    	width: 100%;
+    	height: 50px;
+	background: #3b4665;
+	font-family: 'Bebas Neue', sans-serif;
+	font-size: 40px;
+	text-align: center;
+	padding-bottom: 10px;
+	padding-top: 5px;
+	color: #d3d3d3;
+	margin: 10px 0px;
+}
+
+.conteudo-container{
+	width: 55%;
+	margin-left: 22.5%;
+	background: #d3d3d3;
+	padding-top: 2%;
+	padding-bottom: 2%;	
+}
+
+h1{
+	font-size: 23px;
+	font-family: 'Quicksand', sans-serif;
+	padding: 10px;
+}
+ 
+.flex-direction1, .flex-direction2, .flex-direction3, .flex-direction4{
+	display: flex;	
+}
+
+.texto1{
+	font-size: 17px;
+	width: 100px;
+	height: 100px;
+	text-align: center;
+	background: #2a2c31;
+	color: white;
+	margin: 5px;
+}
+
+.texto2{
+	font-size: 17px;
+	width: 100px;
+	height: 100px;
+	text-align: center;
+	background: #5c606b;
+	color: white;
+	margin: 5px;
+}
+
+.texto3{
+	font-size: 17px;
+	width: 100px;
+	height: 100px;
+	text-align: center;
+	background: #34405f;
+	color: white;
+	margin: 5px;
+}
+
+.texto4{
+	font-size: 17px;
+	width: 100px;
+	height: 100px;
+	text-align: center;
+	background: #21293f;
+	color: white;
+	margin: 5px;
+}
+
+.flex-direction1{
+	flex-direction: row;	
+}
+
+.flex-direction2{
+	flex-direction: row-reverse;
+	padding-top: 10px;
+}
+
+.flex-direction3-flex-direction4{
+	display: flex;
+	padding-top: 50px;
+}
+
+.flex-direction3{
+	flex-direction: column;
+}
+
+.flex-direction4{
+	flex-direction: column-reverse;
+	margin-left: auto;
+}
+
+hr{
+	border: 3px solid #3b4665;
+	margin-bottom: 30px;
+}
+
+.flex-wrap1, .flex-wrap2, .flex-wrap3{
+	display: flex;
+	margin-bottom: 30px;
+}
+
+.flex-wrap1-content{
+	display: flex;
+    	width: 58%;
+	flex-wrap: nowrap;
+}
+
+.flex-wrap2-content{
+	display: flex;
+    	width: 58%;
+	flex-wrap: wrap;
+}
+
+.flex-wrap3-content{
+	display: flex;
+    	width: 58%;
+	flex-wrap: wrap-reverse;
+}
+
+.justify-content1{
+	display: flex;
+    	justify-content: flex-start;
+}
+
+.justify-content2{
+	display: flex;
+    	justify-content: flex-end;
+}
+
+.justify-content3{
+	display: flex;
+    	justify-content: center;
+}
+
+.justify-content4{
+	display: flex;
+    	justify-content: space-between;
+}
+
+.justify-content5{
+	display: flex;
+    	justify-content: space-around;
+}
+
+.border {
+ 	border: 3px solid #3b4665; 
+	width: 95%;
+	margin: 2%;
+	height: 300px;
+    	display: flex;
+}
+
+.align-items1-content{
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-around;
+	width: 95%;
+	margin: 2%;
+	flex-wrap: nowrap; 
+}
+
+.align-items2-content{
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-around;
+	width: 95%;
+	margin: 2%;
+}
+
+.align-items3-content{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	width: 95%;
+	margin: 2%;
+}
+
+.align-items4-content{
+	display: flex;
+	align-items: baseline;
+	justify-content: space-around;
+	width: 95%;
+	margin: 2%;
+}
+
+.align-items5-content{
+	display: flex;
+	align-items: stretch;
+	justify-content: space-around;
+	width: 95%;
+	margin: 2%;
+}
+
+.texto3-stretch{
+	font-size: 17px;
+	width: 100px;
+	text-align: center;
+	background: #34405f;
+	color: white;
+	margin: 5px;
+}
+
+.border400{
+ 	border: 3px solid #3b4665; 
+	width: 95%;
+	margin: 2%;
+	height: 400px;
+    	display: flex;
+}
+
+
+.align-content1-content{
+	display: flex;
+	width: 95%;
+	margin: 2%;
+	flex-wrap: wrap;
+	align-content: flex-start;
+}
+
+.texto1-align-content{
+	font-size: 17px;
+	width: 70px;
+	height: 70px;
+	text-align: center;
+	background: #2a2c31;
+	color: white;
+	margin: 5px;
+}
+
+.texto2-align-content{
+	font-size: 17px;
+	width: 70px;
+	height: 70px;
+	text-align: center;
+	background: #5c606b;
+	color: white;
+	margin: 5px;
+}
+
+.align-content2-content{
+	display: flex;
+	width: 95%;
+	margin: 2%;
+	flex-wrap: wrap;
+	align-content: flex-end;
+}
+
+.align-content3-content{
+	display: flex;
+	width: 95%;
+	margin: 2%;
+	flex-wrap: wrap;
+	align-content: center;
+}
+
+.align-content4-content{
+	display: flex;
+	width: 95%;
+	margin: 2%;
+	flex-wrap: wrap;
+	align-content: stretch;
+}
+
+.texto2-align-content-stretch{
+	font-size: 17px;
+	width: 70px;
+	text-align: center;
+	background: #5c606b;
+	color: white;
+	margin: 5px;
+}
+
+.align-content5-content{
+	display: flex;
+	width: 95%;
+	margin: 2%;
+	flex-wrap: wrap;
+	align-content: space-around;
+}
+
+.align-content6-content{
+	display: flex;
+	width: 95%;
+	margin: 2%;
+	flex-wrap: wrap;
+	align-content: space-between;
+}
+
+/* CONTEUDO ITENS ------------------------------------------------------------*/
+
+.conteudo-itens{
+	width: 55%;
+	margin-left: 22.5%;
+	background: #b9bcc3;
+	padding-top: 2%;
+	padding-bottom: 2%;	
+}
+
+.align-self1-content {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	width: 95%;
+	margin: 2%;
+}
+
+.item1 {
+	font-size: 17px;
+  	width: 100px;
+    	height: 100px;
+    	text-align: center;
+    	background: #3d345f;
+    	color: white;
+    	margin: 5px;
+    	align-self: start;
+}
+
+.align-self2-content {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	width: 95%;
+	margin: 2%;
+}
+
+.item2 {
+	font-size: 17px;
+  	width: 100px;
+    	height: 100px;
+    	text-align: center;
+    	background: #3d345f;
+    	color: white;
+    	margin: 5px;
+    	align-self: end;
+}
+
+.align-self3-content {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	width: 95%;
+	margin: 2%;
+}
+
+.item3 {
+	font-size: 17px;
+  	width: 100px;
+    	text-align: center;
+    	background: #3d345f;
+    	color: white;
+    	margin: 5px;
+    	align-self: stretch;
+}
+
+.align-self4-content {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	width: 95%;
+	margin: 2%;
+}
+
+.item4 {
+	font-size: 17px;
+  	width: 100px;
+    	height: 100px;
+    	text-align: center;
+    	background: #3d345f;
+    	color: white;
+    	margin: 5px;
+    	align-self: center;
+}
+
+.align-self5-content {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	width: 95%;
+	margin: 2%;
+}
+
+.item5 {
+	font-size: 17px;
+  	width: 100px;
+    	height: 100px;
+    	text-align: center;
+    	background: #3d345f;
+    	color: white;
+    	margin: 5px;
+    	align-self: baseline;
+}
+
+.align-self6 {
+	border: 3px solid #3b4665; 
+	width: 95%;
+	margin: 2%;
+	height: 400px;
+    	display: flex;
+}
+
+.align-self6-content {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	width: 95%;
+	margin: 2%;
+}
+
+.item6 {
+	font-size: 17px;
+  	width: 100px;
+    	height: 100px;
+    	text-align: center;
+    	background: #3d345f;
+    	color: white;
+    	margin: 5px;
+    	align-self: auto;
+}
+
+.flex-grow1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+
+.item7 {
+	font-size: 17px;
+  	width: 100px;
+    	height: 100px;
+    	text-align: center;
+    	background: #6e6399;
+    	color: white;
+    	margin: 5px;
+    	align-self: auto;
+	flex-grow: 1;
+}
+
+/*RODAPÉ -------------------------------------------------------------------- */
+
+.rodape {
+    	width: 100%;
+    	height: 50px;
+	background: #3b4665;
+	padding-top: 10px;
+	border-top: 2px solid #adb5c5;
+}
+
+.rodape-logo{
+	font-family: 'Black Ops One', system-ui;
+	font-size: 30px;
+	text-align: center;
+	color: #d3d3d3;
+}
+
+.rodape-nome-div{
+	display: flex;
+    	justify-content: flex-end;
+    	height: 0px;
+    	align-items: end;
+    	padding-top: 15px;
+}
+
+.rodape-nome{
+	font-family: 'Josefin Slab', serif;
+    	padding-right: 3%;
+   	display: flex;
+    	font-weight: 500;
+    	color: #f5ebff99;
+    	font-size: 20px;
+}
+
+
